@@ -425,7 +425,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   min-width: 260px;
 }
 .gasbras-logo {
-  max-height: 72px;
+  max-height: 260px;
   max-width: 260px;
   object-fit: contain;
 }
