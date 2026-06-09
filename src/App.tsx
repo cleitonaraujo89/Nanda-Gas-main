@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import './index.css'
-
+import gasbrasLogo from './supergasbras.png';
 /* ══════════════════════════════════════════════════════════
    ⚠️  CONFIGURAÇÕES — EDITE AQUI ANTES DE PUBLICAR
    ══════════════════════════════════════════════════════════ */
@@ -22,7 +22,7 @@ const CONFIG = {
   mapsEmbed: 'https://maps.google.com/maps?q=R.+Amanaj%C3%B3+17+Bangu+Rio+de+Janeiro+RJ+21820-210&output=embed&z=16',
 
   // Logo Supergasbras (URL externa — substitua por asset local se quiser)
-  gasbrasLogo: 'https://logowik.com/content/uploads/images/supergasbras6393.logowik.com.webp',
+   gasbrasLogo: gasbrasLogo,
 }
 
 const WPP_MSG_PEDIDO  = encodeURIComponent('Olá! Vim pelo site, gostaria de saber mais sobre os serviços. 🔥')
@@ -407,7 +407,7 @@ function GoogleReviews() {
           </p>
 
           <a
-            href={CONFIG.googleReview}
+            href="https://search.google.com/local/writereview?placeid=ChIJAybEXN3fmwARydN1f0m6uiU"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-google btn-lg"

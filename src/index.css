@@ -224,7 +224,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 .section-title.on-light { color: var(--black); }
 
 .section-sub {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.70;
   color: var(--text-muted);
   max-width: 580px;
@@ -354,7 +354,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 
 .hero-subtitle {
-  font-size: clamp(15px, 2.5vw, 18px);
+  font-size: clamp(18px, 2.8vw, 22px);
   color: rgba(255,255,255,0.68);
   line-height: 1.65;
   max-width: 480px;
@@ -425,8 +425,8 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   min-width: 260px;
 }
 .gasbras-logo {
-  max-height: 260px;
-  max-width: 260px;
+  max-height: 300px;
+  max-width: 300px;
   object-fit: contain;
 }
 .gasbras-logo-fallback {
@@ -469,7 +469,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   max-width: 600px;
   margin: 0 auto;
   color: var(--text-muted);
-  font-size: 16px;
+   font-size: 18px;
   line-height: 1.75;
 }
 
@@ -519,7 +519,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   margin-bottom: 12px;
 }
 .why-card-desc {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.70;
   color: var(--text-muted);
 }
@@ -618,7 +618,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 .reviews-desc {
   color: var(--text-muted);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.72;
   margin-bottom: 32px;
 }
@@ -671,7 +671,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 .insta-desc {
   color: rgba(255,255,255,0.62);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.72;
   margin-bottom: 28px;
 }
@@ -739,7 +739,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 .location-detail-value {
   color: rgba(255,255,255,0.72);
-  font-size: 15px;
+   font-size: 17px;
   line-height: 1.65;
 }
 .location-detail-value strong { color: #fff; display: block; }
@@ -790,7 +790,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   letter-spacing: 1px;
 }
 .footer-brand-desc {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
   max-width: 230px;
 }
@@ -805,7 +805,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
 }
 .footer-col p,
 .footer-col a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.90;
   color: rgba(255,255,255,0.55);
   display: block;
