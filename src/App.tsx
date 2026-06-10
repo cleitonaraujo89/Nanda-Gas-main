@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import './index.css'
-import gasbrasLogo from './supergasbras.png';
+import gasbrasLogo from './assets/supergasbras.png';;
 /* ══════════════════════════════════════════════════════════
    ⚠️  CONFIGURAÇÕES — EDITE AQUI ANTES DE PUBLICAR
    ══════════════════════════════════════════════════════════ */
