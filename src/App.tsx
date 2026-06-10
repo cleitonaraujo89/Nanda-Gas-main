@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import './index.css'
+import './index.css';
 import gasbrasLogo from './supergasbras.png';
 /* ══════════════════════════════════════════════════════════
    ⚠️  CONFIGURAÇÕES — EDITE AQUI ANTES DE PUBLICAR
