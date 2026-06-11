@@ -613,10 +613,21 @@ function Footer() {
 
         </div>
 
-        <div className="footer-bottom">
+         <div className="footer-bottom">
           <p>© {year} Nanda Gás. Todos os direitos reservados.</p>
+          <p className="footer-credit">
+            Site produzido por{' '}
+            <a
+              href="https://atylus.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-credit-link"
+            >
+              Atylus Soluções Digitais
+            </a>
+          </p>
         </div>
-      </div>
+        </div>
     </footer>
   )
 }
